@@ -21,3 +21,8 @@ body{
     color: #777;
 }
 
+.header{
+    height: 95vh;
+    background-image: ./img/hero-small.jpg;
+    background-size: cover;
+}
