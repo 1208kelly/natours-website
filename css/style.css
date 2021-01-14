@@ -71,3 +71,9 @@ body{
     font-weight: 700;
     letter-spacing: 17.5px;
 }
+
+/*-------------------- Keyframes --------------------*/
+
+@keyframes moveInLeft{
+    
+}
