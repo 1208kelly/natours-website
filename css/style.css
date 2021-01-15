@@ -142,3 +142,8 @@ body{
     background-color: #fff;
     color: #777;
 }
+
+.btn::after{
+    content: "";
+    display: inline-block;
+}
