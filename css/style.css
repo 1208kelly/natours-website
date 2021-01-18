@@ -185,6 +185,11 @@ body{
 
 /*-------------------- Main Body Section --------------------*/
 
+.main-body{
+    height: 80%;
+    width: 100%;
+}
+
 .body-section{
     height: 100px;
     width: 100px;
