@@ -212,4 +212,9 @@ body{
     h2{
         color: #eee;
     }
+
+    &::after{
+        content: "";
+        clear: both;
+    }
 }
