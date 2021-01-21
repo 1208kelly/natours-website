@@ -197,11 +197,11 @@ body{
     height: 80%;
     width: 100%;
     display: table;
-}
 
-.clearfix::after{
-    content: "";
-    clear: both;
+    &::after{
+        content: "";
+        clear: both;
+    }
 }
 
 .main-body-section{
