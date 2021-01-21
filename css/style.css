@@ -196,6 +196,7 @@ body{
 .main-body{
     height: 80%;
     width: 100%;
+    display: table;
 }
 
 .main-body-section{
