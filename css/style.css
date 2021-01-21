@@ -199,6 +199,11 @@ body{
     display: table;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+}
+
 .main-body-section{
     height: 100%;
     width: 100%;
