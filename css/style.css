@@ -219,6 +219,14 @@ body{
     }
 }
 
+$color-primary: #f9ed69; //yellow color
+$color-secondary: #f08a5d; //orange color
+$color-tertiary: #b83b5e; //pink color
+$color-text-dark: #333; //dark grey color
+$color-text-light: #eee; //light grey color
+
+$width-button: 150px;
+
 @mixin style-link-text($color){
     text-decoration: none;
     text-transform: uppercase;
