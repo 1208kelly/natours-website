@@ -219,6 +219,10 @@ body{
     }
 }
 
+.buttons{
+    float: right;
+  }
+
 .btn-main{
     &:link{
       @extend %btn-placeholder;
