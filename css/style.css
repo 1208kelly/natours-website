@@ -221,7 +221,17 @@ body{
 
 .buttons{
     float: right;
-  }
+}
+
+%btn-placeholder{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100px;
+    width: $width-button;
+    
+    @include style-link-text($color-text-light);
+}
 
 .btn-main{
     &:link{
@@ -232,7 +242,7 @@ body{
     &:hover{
       background-color: darken($color-secondary, 15%);
     }
-  }
+}
 
   .btn-hot{
     &:link{
@@ -243,4 +253,4 @@ body{
     &:hover{
       background-color: lighten($color-tertiary, 10%);
     }
-  }
+}
