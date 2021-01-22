@@ -219,3 +219,13 @@ body{
     }
 }
 
+.btn-main{
+    &:link{
+      @extend %btn-placeholder;
+      background-color: $color-secondary;
+    }
+    
+    &:hover{
+      background-color: darken($color-secondary, 15%);
+    }
+  }
