@@ -229,3 +229,14 @@ body{
       background-color: darken($color-secondary, 15%);
     }
   }
+
+  .btn-hot{
+    &:link{
+      @extend %btn-placeholder;
+      background-color: $color-tertiary;
+    }
+    
+    &:hover{
+      background-color: lighten($color-tertiary, 10%);
+    }
+  }
