@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/1208kelly/natours-website/issues"
   },
-  "homepage": "https://github.com/1208kelly/natours-website#readme"
+  "homepage": "https://github.com/1208kelly/natours-website#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
