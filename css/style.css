@@ -6,67 +6,6 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; }
-
-html {
-  font-size: 62.5%; }
-
-body {
-  font-family: Lato, sans-serif;
-  font-weight: 400;
-  /*font-size: 16px;*/
-  line-height: 1.7;
-  color: #777;
-  padding: 3rem;
-  box-sizing: border-box; }
-
-/*-------------------- Header --------------------*/
-.header {
-  height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.801), rgba(40, 180, 133, 0.801)), url(../img/hero-small.jpg);
-  background-size: cover;
-  background-position: top;
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%); }
-  .header__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem; }
-  .header__logo {
-    height: 3.5rem; }
-  .header__text-box {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(50%, 80%);
-    text-align: center; }
-
-.heading-primary {
-  color: #fff;
-  text-transform: uppercase;
-  backface-visibility: hidden;
-  margin-bottom: 6rem; }
-  .heading-primary--main {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
-    animation-name: moveInLeft;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-out; }
-  .heading-primary--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
-    animation: moveInRight 1.5s ease-out; }
-
-/*-------------------- Keyframes --------------------*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -95,7 +34,47 @@ body {
     opacity: 1;
     transform: translate(0); } }
 
-/*-------------------- Header Button --------------------*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  color: #777;
+  padding: 3rem; }
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
+  .heading-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    animation-name: moveInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    animation: moveInRight 1.5s ease-out; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -139,45 +118,22 @@ body {
   animation: moveInBottom .5s ease-out .75s;
   animation-fill-mode: backwards; }
 
-/*-------------------- Main Body Section --------------------*/
-.main-body {
-  height: 80%;
-  width: 100%;
-  display: table; }
-  .main-body::after {
-    content: "";
-    clear: both; }
-  .main-body-section {
-    height: 100%;
-    width: 100%;
-    background-color: red; }
-    .main-body-section h2 {
-      color: #eee; }
-    .main-body-section::after {
-      content: "";
-      clear: both; }
-
-.buttons {
-  float: right; }
-
-.btn-main:link, .btn-hot:link {
-  padding: 10px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 100px;
-  width: 150px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #eee; }
-
-.btn-main:link {
-  background-color: #f08a5d; }
-
-.btn-main:hover {
-  background-color: #ea5717; }
-
-.btn-hot:link {
-  background-color: #b83b5e; }
-
-.btn-hot:hover {
-  background-color: #cb5b7b; }
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.801), rgba(40, 180, 133, 0.801)), url(../img/hero-small.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%); }
+  .header__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .header__logo {
+    height: 3.5rem; }
+  .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(50%, 80%);
+    text-align: center; }
