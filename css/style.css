@@ -274,7 +274,7 @@ body {
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
-  margin-top: -9rem;
+  margin-top: -10rem;
   /* Direct-child seclector e.g .section-features all direct-children */ }
   .section-features > * {
     transform: skewY(7deg); }
