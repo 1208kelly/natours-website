@@ -27,3 +27,10 @@
             }
         }
     }
+
+    &--front {
+        background-color: $color-white;
+    }
+
+    &--back {
+        transform: rotateY(180deg);
