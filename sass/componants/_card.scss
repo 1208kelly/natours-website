@@ -27,10 +27,3 @@
             }
         }
     }
-
-    &--front {
-        background-color: $color-black;
-    }
-
-    &--back {
-        transform: rotateY(180deg);
